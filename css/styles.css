@@ -1,0 +1,72 @@
+.container {
+	width: 604px;
+	height: 604px;
+	margin: 0 auto;
+	font-size: 0;
+	position: relative;
+	background-image: url('../img/checkers-board.jpg');
+	
+}
+ul {
+	padding-left: 0
+}
+ul li {
+	display: inline-block;
+
+}
+.black-cell,
+.white-cell {
+	width: 75px;
+	height: 75px
+
+}
+.row1,
+.row2,
+.row3,
+.row6,
+.row7,
+.row8 {
+	position: absolute;
+	left: 2px;
+	font-size: 1px;
+}
+.row1 {
+	top: 0;	
+}
+.row2 {
+	top: 76px;
+	}
+.row3 {
+	top: 151px;
+}
+.row6 {
+	bottom: 151px;
+	
+}
+.row7 {
+	bottom: 76px;
+	
+}
+.row8 {
+	bottom: 1px;	
+}
+.white-cell {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: 5px solid #FFF;
+	background: #FFE793;
+
+}
+.white-cell-1 {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: 5px solid #FFF;
+	background: #9D3979;
+}
+
+
+
+
+
